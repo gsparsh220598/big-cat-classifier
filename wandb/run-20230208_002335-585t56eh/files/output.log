@@ -1,0 +1,70 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=MobileNet_V3_Small_Weights.IMAGENET1K_V1`. You can also use `weights=MobileNet_V3_Small_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9.83M/9.83M [00:00<00:00, 61.3MB/s]
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+
+
+
+0         3.097631    1.736408    0.400000  0.600000    0.349206  0.600000      00:04
+Better model found at epoch 0 with accuracy value: 0.4000000059604645.
+
+
+
+
+1         2.311194    1.138805    0.566667  0.433333    0.583862  0.433333      00:03
+Better model found at epoch 1 with accuracy value: 0.5666666626930237.
+
+
+
+
+2         1.725478    1.124942    0.566667  0.433333    0.533502  0.433333      00:03
+
+
+
+
+3         1.459510    1.165170    0.566667  0.433333    0.519630  0.433333      00:03
+
+
+
+
+4         1.217436    0.829684    0.633333  0.366667    0.598949  0.366667      00:03
+Better model found at epoch 4 with accuracy value: 0.6333333253860474.
+
+
+
+
+
+5         1.077933    0.840752    0.633333  0.366667    0.607407  0.366667      00:03
+
+
+
+
+
+6         0.993608    0.819835    0.633333  0.366667    0.614815  0.366667      00:03
+
+
+
+
+
+7         1.012902    0.784260    0.700000  0.300000    0.667196  0.300000      00:03
+Better model found at epoch 7 with accuracy value: 0.699999988079071.
+
+
+
+
+8         0.887177    0.761968    0.733333  0.266667    0.700000  0.266667      00:03
+Better model found at epoch 8 with accuracy value: 0.7333333492279053.
+
+
+
+
+
+9         0.916560    0.730620    0.733333  0.266667    0.700000  0.266667      00:03

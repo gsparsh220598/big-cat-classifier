@@ -1,0 +1,543 @@
+
+[34m[1mwandb[39m[22m: Adding directory to artifact (./Dataset/Lions)... Done. 0.1s
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/system_monitor.py", line 118, in _start
+    asset.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/cpu.py", line 166, in start
+    self.metrics_monitor.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/interfaces.py", line 168, in start
+    logger.info(f"Started {self._process.name}")
+AttributeError: 'NoneType' object has no attribute 'name'
+0    Lion cubs
+Name: Label, dtype: object
+1    Lion cubs
+Name: Label, dtype: object
+2    Lion cubs
+Name: Label, dtype: object
+3    Lion cubs
+Name: Label, dtype: object
+4    Lion cubs
+Name: Label, dtype: object
+5    Lion cubs
+Name: Label, dtype: object
+6    Lion cubs
+Name: Label, dtype: object
+7    Lion cubs
+Name: Label, dtype: object
+8    Lion cubs
+Name: Label, dtype: object
+9    Lion cubs
+Name: Label, dtype: object
+10    Lion cubs
+Name: Label, dtype: object
+11    Lion cubs
+Name: Label, dtype: object
+12    Lion cubs
+Name: Label, dtype: object
+13    Lion cubs
+Name: Label, dtype: object
+14    Lion cubs
+Name: Label, dtype: object
+15    Lion cubs
+Name: Label, dtype: object
+16    Lion cubs
+Name: Label, dtype: object
+17    Lion cubs
+Name: Label, dtype: object
+18    Lion cubs
+Name: Label, dtype: object
+19    Lion cubs
+Name: Label, dtype: object
+20    Lion cubs
+Name: Label, dtype: object
+21    Lion cubs
+Name: Label, dtype: object
+22    Lion cubs
+Name: Label, dtype: object
+23    Lion cubs
+Name: Label, dtype: object
+24    Lion cubs
+Name: Label, dtype: object
+25    Lion cubs
+Name: Label, dtype: object
+26    Lion cubs
+Name: Label, dtype: object
+27    Lion cubs
+Name: Label, dtype: object
+28    Lion cubs
+Name: Label, dtype: object
+29    Lion cubs
+Name: Label, dtype: object
+30    Lion cubs
+Name: Label, dtype: object
+31    Lion cubs
+Name: Label, dtype: object
+32    Lion cubs
+Name: Label, dtype: object
+33    Lion cubs
+Name: Label, dtype: object
+34    Lion cubs
+Name: Label, dtype: object
+35    Lion cubs
+Name: Label, dtype: object
+36    Lion cubs
+Name: Label, dtype: object
+37    Lion cubs
+Name: Label, dtype: object
+38    Lion cubs
+Name: Label, dtype: object
+39    Lion cubs
+Name: Label, dtype: object
+40    Lion cubs
+Name: Label, dtype: object
+41    Lion cubs
+Name: Label, dtype: object
+42    Lion cubs
+Name: Label, dtype: object
+43    Lion cubs
+Name: Label, dtype: object
+44    Lion cubs
+Name: Label, dtype: object
+45    Lion cubs
+Name: Label, dtype: object
+46    Lion cubs
+Name: Label, dtype: object
+47    Lion cubs
+Name: Label, dtype: object
+48    Lion cubs
+Name: Label, dtype: object
+49    Lion cubs
+Name: Label, dtype: object
+50    Lion cubs
+Name: Label, dtype: object
+51    Lion cubs
+Name: Label, dtype: object
+52    Lion cubs
+Name: Label, dtype: object
+53    Lion cubs
+Name: Label, dtype: object
+54    Lion cubs
+Name: Label, dtype: object
+55    Lion cubs
+Name: Label, dtype: object
+56    Lion cubs
+Name: Label, dtype: object
+57    Lion cubs
+Name: Label, dtype: object
+0    Lion
+Name: Label, dtype: object
+1    Lion
+Name: Label, dtype: object
+2    Lion
+Name: Label, dtype: object
+3    Lion
+Name: Label, dtype: object
+4    Lion
+Name: Label, dtype: object
+5    Lion
+Name: Label, dtype: object
+6    Lion
+Name: Label, dtype: object
+7    Lion
+Name: Label, dtype: object
+8    Lion
+Name: Label, dtype: object
+9    Lion
+Name: Label, dtype: object
+10    Lion
+Name: Label, dtype: object
+11    Lion
+Name: Label, dtype: object
+12    Lion
+Name: Label, dtype: object
+13    Lion
+Name: Label, dtype: object
+14    Lion
+Name: Label, dtype: object
+15    Lion
+Name: Label, dtype: object
+16    Lion
+Name: Label, dtype: object
+17    Lion
+Name: Label, dtype: object
+18    Lion
+Name: Label, dtype: object
+19    Lion
+Name: Label, dtype: object
+20    Lion
+Name: Label, dtype: object
+21    Lion
+Name: Label, dtype: object
+22    Lion
+Name: Label, dtype: object
+23    Lion
+Name: Label, dtype: object
+24    Lion
+Name: Label, dtype: object
+25    Lion
+Name: Label, dtype: object
+26    Lion
+Name: Label, dtype: object
+27    Lion
+Name: Label, dtype: object
+28    Lion
+Name: Label, dtype: object
+29    Lion
+Name: Label, dtype: object
+30    Lion
+Name: Label, dtype: object
+31    Lion
+Name: Label, dtype: object
+32    Lion
+Name: Label, dtype: object
+33    Lion
+Name: Label, dtype: object
+34    Lion
+Name: Label, dtype: object
+35    Lion
+Name: Label, dtype: object
+36    Lion
+Name: Label, dtype: object
+37    Lion
+Name: Label, dtype: object
+38    Lion
+Name: Label, dtype: object
+39    Lion
+Name: Label, dtype: object
+40    Lion
+Name: Label, dtype: object
+41    Lion
+Name: Label, dtype: object
+42    Lion
+Name: Label, dtype: object
+43    Lion
+Name: Label, dtype: object
+44    Lion
+Name: Label, dtype: object
+45    Lion
+Name: Label, dtype: object
+46    Lion
+Name: Label, dtype: object
+47    Lion
+Name: Label, dtype: object
+48    Lion
+Name: Label, dtype: object
+49    Lion
+Name: Label, dtype: object
+50    Lion
+Name: Label, dtype: object
+51    Lion
+Name: Label, dtype: object
+52    Lion
+Name: Label, dtype: object
+53    Lion
+Name: Label, dtype: object
+54    Lion
+Name: Label, dtype: object
+55    Lion
+Name: Label, dtype: object
+56    Lion
+Name: Label, dtype: object
+57    Lion
+Name: Label, dtype: object
+58    Lion
+Name: Label, dtype: object
+0    Lioness
+Name: Label, dtype: object
+1    Lioness
+Name: Label, dtype: object
+2    Lioness
+Name: Label, dtype: object
+3    Lioness
+Name: Label, dtype: object
+4    Lioness
+Name: Label, dtype: object
+5    Lioness
+Name: Label, dtype: object
+6    Lioness
+Name: Label, dtype: object
+7    Lioness
+Name: Label, dtype: object
+8    Lioness
+Name: Label, dtype: object
+9    Lioness
+Name: Label, dtype: object
+10    Lioness
+Name: Label, dtype: object
+11    Lioness
+Name: Label, dtype: object
+12    Lioness
+Name: Label, dtype: object
+13    Lioness
+Name: Label, dtype: object
+14    Lioness
+Name: Label, dtype: object
+15    Lioness
+Name: Label, dtype: object
+16    Lioness
+Name: Label, dtype: object
+17    Lioness
+Name: Label, dtype: object
+18    Lioness
+Name: Label, dtype: object
+19    Lioness
+Name: Label, dtype: object
+20    Lioness
+Name: Label, dtype: object
+21    Lioness
+Name: Label, dtype: object
+22    Lioness
+Name: Label, dtype: object
+23    Lioness
+Name: Label, dtype: object
+24    Lioness
+Name: Label, dtype: object
+25    Lioness
+Name: Label, dtype: object
+26    Lioness
+Name: Label, dtype: object
+27    Lioness
+Name: Label, dtype: object
+28    Lioness
+Name: Label, dtype: object
+29    Lioness
+Name: Label, dtype: object
+30    Lioness
+Name: Label, dtype: object
+31    Lioness
+Name: Label, dtype: object
+32    Lioness
+Name: Label, dtype: object
+33    Lioness
+Name: Label, dtype: object
+34    Lioness
+Name: Label, dtype: object
+35    Lioness
+Name: Label, dtype: object
+36    Lioness
+Name: Label, dtype: object
+37    Lioness
+Name: Label, dtype: object
+38    Lioness
+Name: Label, dtype: object
+39    Lioness
+Name: Label, dtype: object
+40    Lioness
+Name: Label, dtype: object
+41    Lioness
+Name: Label, dtype: object
+42    Lioness
+Name: Label, dtype: object
+43    Lioness
+Name: Label, dtype: object
+44    Lioness
+Name: Label, dtype: object
+45    Lioness
+Name: Label, dtype: object
+46    Lioness
+Name: Label, dtype: object
+47    Lioness
+Name: Label, dtype: object
+48    Lioness
+Name: Label, dtype: object
+49    Lioness
+Name: Label, dtype: object
+50    Lioness
+Name: Label, dtype: object
+51    Lioness
+Name: Label, dtype: object
+52    Lioness
+Name: Label, dtype: object
+53    Lioness
+Name: Label, dtype: object
+54    Lioness
+Name: Label, dtype: object
+55    Lioness
+Name: Label, dtype: object
+56    Lioness
+Name: Label, dtype: object
+57    Lioness
+Name: Label, dtype: object
+58    Lioness
+Name: Label, dtype: object
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion cubs
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lion
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness
+Lioness

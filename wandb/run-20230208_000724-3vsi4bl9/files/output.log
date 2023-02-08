@@ -1,0 +1,11 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+Traceback (most recent call last):
+  File "/notebooks/Big Cat Classification/train.py", line 119, in <module>
+    train(default_config)
+  File "/notebooks/Big Cat Classification/train.py", line 96, in train
+    processed_dataset_dir = download_data()
+  File "/notebooks/Big Cat Classification/train.py", line 50, in download_data
+    return processed_data_dir
+NameError: name 'processed_data_dir' is not defined

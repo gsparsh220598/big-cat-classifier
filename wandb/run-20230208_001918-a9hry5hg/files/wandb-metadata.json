@@ -1,0 +1,91 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-02-08T00:19:19.107485",
+    "startedAt": "2023-02-08T00:19:18.695268",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--arch=convnext_tiny",
+        "--batch_size=8",
+        "--img_size=240",
+        "--log_preds=False",
+        "--lr=0.0009366615969381304"
+    ],
+    "state": "running",
+    "program": "/notebooks/Big Cat Classification/train.py",
+    "codePath": "Big Cat Classification/train.py",
+    "git": {
+        "remote": "https://github.com/fastai/fastbook.git",
+        "commit": "823b69e00aa1e1c1a45fe88bd346f11e8f89c1ff"
+    },
+    "email": null,
+    "root": "/notebooks",
+    "host": "nwqasm6dly",
+    "username": "fastai",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3200.009,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3200.009,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 245.95343399047852,
+        "used": 102.33238220214844
+    },
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A4000",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 44.10197830200195
+    }
+}

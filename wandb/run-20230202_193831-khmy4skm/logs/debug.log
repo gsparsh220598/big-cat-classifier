@@ -1,0 +1,466 @@
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_setup.py:_flush():68] Configure stats pid to 1668
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_setup.py:_flush():68] Loading settings from /notebooks/Big Cat Classification/wandb/settings
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_init.py:_log_setup():478] Logging user logs to /notebooks/Big Cat Classification/wandb/run-20230202_193831-khmy4skm/logs/debug.log
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_init.py:_log_setup():479] Logging internal logs to /notebooks/Big Cat Classification/wandb/run-20230202_193831-khmy4skm/logs/debug-internal.log
+2023-02-02 19:38:31,837 INFO    MainThread:1668 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f490f891430>
+2023-02-02 19:38:31,838 INFO    MainThread:1668 [wandb_init.py:init():518] calling init triggers
+2023-02-02 19:38:31,838 INFO    MainThread:1668 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'pretrained': True, 'seed': 42}
+2023-02-02 19:38:31,838 INFO    MainThread:1668 [wandb_init.py:init():571] starting backend
+2023-02-02 19:38:31,838 INFO    MainThread:1668 [wandb_init.py:init():575] setting up manager
+2023-02-02 19:38:31,839 INFO    MainThread:1668 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-02 19:38:31,841 INFO    MainThread:1668 [wandb_init.py:init():582] backend started and connected
+2023-02-02 19:38:31,851 INFO    MainThread:1668 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-02 19:38:31,852 INFO    MainThread:1668 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-02 19:38:31,852 INFO    MainThread:1668 [wandb_init.py:init():670] updated telemetry
+2023-02-02 19:38:31,870 INFO    MainThread:1668 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-02 19:38:32,094 INFO    MainThread:1668 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-02 19:38:32,127 INFO    MainThread:1668 [wandb_run.py:_on_init():2125] got version response 
+2023-02-02 19:38:32,127 INFO    MainThread:1668 [wandb_init.py:init():758] starting run threads in backend
+2023-02-02 19:38:32,184 INFO    MainThread:1668 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-02 19:38:32,184 INFO    MainThread:1668 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-02 19:38:32,184 INFO    MainThread:1668 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-02 19:38:32,184 INFO    MainThread:1668 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-02 19:38:32,185 INFO    MainThread:1668 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-02 19:38:32,185 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:38:32,185 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:38:38,362 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:38:40,022 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:38:40,022 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:39:54,117 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:39:54,563 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:39:54,564 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:40:00,084 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:40:02,894 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:40:02,894 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:41:05,806 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:41:05,813 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:41:05,813 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:41:15,235 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:41:15,972 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:41:15,972 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:41:33,891 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:41:33,896 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:41:33,896 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:42:40,131 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:42:40,136 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:42:40,136 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:44:22,739 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:44:22,752 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:44:22,752 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:44:40,027 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:44:40,035 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:44:40,035 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:46:30,907 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:46:30,915 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:46:30,915 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:46:39,441 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:46:39,442 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:46:39,443 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:46:59,851 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:46:59,854 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:46:59,854 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:47:14,811 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:47:14,817 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:47:14,817 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:47:38,564 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:47:38,568 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:47:38,568 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:49:55,146 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:49:55,158 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:49:55,158 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:50:15,663 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:50:15,665 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:50:15,665 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:50:21,210 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:50:22,421 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:50:22,421 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:50:31,091 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:50:31,600 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:50:31,600 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:51:56,827 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:51:56,832 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:51:56,832 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:53:09,855 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:53:09,858 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:53:09,858 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:57:32,962 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:57:32,966 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:57:32,966 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:57:39,204 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:57:39,209 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:57:39,209 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:57:44,205 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:57:44,216 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:57:44,216 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:57:46,449 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:57:46,459 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:57:46,459 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:57:48,752 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:57:48,756 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:57:48,756 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:58:09,385 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:58:09,389 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:58:09,389 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:58:51,298 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:58:51,306 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:58:51,307 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:59:14,380 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:59:15,024 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:59:15,024 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 19:59:59,464 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 19:59:59,470 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 19:59:59,470 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:00:02,749 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:00:02,752 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:00:02,753 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:00:05,392 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:00:05,397 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:00:05,398 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:05,142 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:05,143 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:05,143 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:07,059 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:07,060 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:07,061 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:34,317 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:34,335 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:34,335 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:53,925 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:53,929 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:53,929 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:55,273 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:55,274 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:55,275 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:01:56,058 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:01:56,064 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:01:56,064 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:04:29,537 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:04:30,192 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:04:30,193 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:04:46,843 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:04:46,844 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:04:46,844 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:05,872 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:05,926 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:05,926 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:06,509 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:06,514 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:06,514 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:07,997 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:08,001 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:08,001 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:14,434 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:15,519 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:15,519 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:28,039 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:28,068 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:28,068 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:36,642 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:36,843 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:36,843 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:05:56,542 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:05:56,549 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:05:56,549 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:06:30,747 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:06:30,748 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:06:30,748 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:08:26,263 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:08:26,264 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:08:26,265 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:08:38,358 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:08:38,415 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:08:38,416 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:12:51,193 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:12:51,205 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:12:51,205 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:13:03,834 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:13:03,843 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:13:03,843 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:14:35,116 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:14:35,118 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:14:35,118 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:14:39,747 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:14:40,143 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:14:40,143 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:15:26,450 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:15:26,460 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:15:26,460 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:15:40,509 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:15:40,519 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:15:40,519 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:15:44,347 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:15:44,349 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:15:44,349 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:15:53,027 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:15:53,118 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner.default_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', 'fastai.metrics.F1Score', 'fastai.metrics.HammingLoss'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.efficientnet.efficientnet_b0', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f476d8eafd0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 5327996, 'device': 'cuda', 'frozen': True, 'frozen idx': 1, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False}"}
+2023-02-02 20:15:58,195 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:15:58,195 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:16:53,414 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:16:53,415 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:16:53,415 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:16:54,055 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:16:54,112 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner.default_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', 'fastai.metrics.F1Score', 'fastai.metrics.HammingLoss'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.efficientnet.efficientnet_b0', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f476d8eafd0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 5327996, 'device': 'cuda', 'frozen': True, 'frozen idx': 1, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False}"}
+2023-02-02 20:16:56,963 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:16:56,963 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:17:58,522 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:17:58,528 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:17:58,528 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:21:26,250 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:21:26,660 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:21:26,660 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:21:28,022 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:21:28,023 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:21:28,024 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:21:28,921 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:21:28,982 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', 'fastai.metrics.F1Score', 'fastai.metrics.HammingLoss'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f17919d0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:21:31,194 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:21:31,194 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:22:40,823 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:22:40,997 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:22:40,997 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:22:41,773 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:22:41,774 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:22:41,775 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:22:42,722 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:22:42,784 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.F1Score', 'fastai.metrics.HammingLoss'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f476d90c220>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:22:45,087 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:22:45,087 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:02,400 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:02,570 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:02,570 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:03,196 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:03,197 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:03,197 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:05,638 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:05,640 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:05,640 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:06,370 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:06,423 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', 'fastai.metrics.F1Score'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f258da30>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:23:08,573 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:08,573 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:21,626 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:21,801 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:21,801 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:22,414 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:22,415 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:22,415 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:22,969 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:23,012 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', 'fastai.metrics.HammingLoss'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f25923d0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:23:25,237 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:25,237 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:42,835 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:43,005 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:43,006 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:47,844 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:47,845 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:23:47,845 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:23:48,518 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:23:48,577 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy'], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f24d36d0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:24:12,292 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:24:12,292 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:01,793 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:01,965 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:01,965 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:03,638 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:03,639 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:03,639 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:05,261 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:05,365 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f2339190>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f23390a0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f23398b0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:26:07,946 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:07,946 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:48,159 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:48,333 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:48,333 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:50,242 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:50,243 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:50,243 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:26:50,823 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:26:50,904 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f2214040>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f2214df0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f25e2df0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:26:53,164 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:26:53,164 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:21,467 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:21,635 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:21,636 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:22,280 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:22,281 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:22,282 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:22,970 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:23,023 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f2230f70>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f2230610>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f2230a60>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:27:25,450 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:25,450 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:41,383 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:41,565 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:41,565 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:52,186 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:52,340 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:52,341 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:52,858 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:52,859 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:27:52,859 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:27:53,390 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:27:53,464 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', 'fastai.metrics.top_k_accuracy', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f20a72e0>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f20a7190>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f20a71c0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:28:17,017 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:28:17,017 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:29:54,639 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:29:54,652 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:29:54,652 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:31:23,966 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:31:24,126 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:31:24,126 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:31:25,326 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:31:25,326 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:31:25,327 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:31:27,832 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:31:27,833 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:31:27,833 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:31:29,086 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:31:29,086 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:31:29,086 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:31:29,663 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:31:29,717 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner.default_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f20d86a0>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f20d8730>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.efficientnet.efficientnet_b0', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f05c7bb0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 5327996, 'device': 'cuda', 'frozen': True, 'frozen idx': 1, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:31:59,890 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:31:59,890 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:32:17,983 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:32:18,144 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:32:18,144 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:32:22,963 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:32:22,964 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:32:22,964 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:32:25,361 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:32:25,362 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:32:25,362 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:32:26,465 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:32:26,556 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0bf59a0>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0bf5ac0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f0bf57f0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:32:49,694 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:32:49,694 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:33:25,401 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:33:25,569 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:33:25,569 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:33:27,957 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:33:27,958 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:33:27,959 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:33:28,595 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:33:28,646 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0b8d1f0>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0b8dbb0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f0cc76a0>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:33:51,807 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:33:51,807 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:34:27,318 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:34:27,329 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:34:27,329 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:36:02,665 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:36:02,667 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:36:02,667 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:36:07,745 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:36:08,611 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:36:08,611 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:36:11,317 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:36:11,326 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:36:11,326 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:36:21,562 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:36:21,564 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:36:21,564 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:36:26,646 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:36:26,651 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:36:26,651 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:37:32,507 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:37:32,516 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:37:32,516 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:37:50,004 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:37:50,008 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:37:50,008 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:38:35,495 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:38:35,499 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:38:35,499 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:44:59,774 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:44:59,776 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:44:59,776 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:45:03,608 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:45:03,618 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:45:03,618 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:45:05,784 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:45:05,786 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:45:05,786 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:45:25,587 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:45:25,904 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:45:25,905 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:46:35,008 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:46:35,800 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:46:35,800 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:51:29,163 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:51:30,001 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:51:30,001 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:51:39,737 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:51:39,743 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:51:39,743 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:51:46,034 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:51:46,038 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:51:46,038 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:51:50,495 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:51:50,498 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:51:50,498 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:48,850 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:48,852 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:52:48,852 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:50,379 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:50,379 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:52:50,379 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:50,955 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:51,004 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:52:51,004 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:51,902 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:52,068 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:52:52,069 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:53,425 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:53,426 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:52:53,426 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:52:54,451 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:52:54,577 INFO    MainThread:1668 [wandb_run.py:_config_callback():1249] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0389610>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7f47f0389310>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7f47f0389580>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label_fname', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-02 20:53:18,168 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:53:18,168 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:53:20,731 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:53:21,070 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:53:21,071 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:53:36,153 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:53:36,871 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:53:36,871 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:53:42,496 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:53:43,257 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:53:43,257 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:53:43,974 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:53:43,977 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:53:43,977 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:54:01,020 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:54:01,888 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:54:01,888 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:54:13,198 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:54:13,470 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:54:13,471 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:55:11,488 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:55:12,300 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:55:12,300 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:55:28,043 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:55:28,791 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:55:28,792 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:55:43,927 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:55:44,678 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:55:44,679 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 20:55:45,590 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 20:55:45,593 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 20:55:45,593 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 21:03:19,414 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 21:03:19,423 INFO    MainThread:1668 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-02 21:03:19,423 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 21:03:39,606 INFO    MainThread:1668 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-02 21:03:39,607 INFO    MainThread:1668 [wandb_run.py:_finish():1844] finishing run gsparsh/big-cat-classification/khmy4skm
+2023-02-02 21:03:39,607 INFO    MainThread:1668 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-02 21:03:39,608 INFO    MainThread:1668 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-02 21:03:39,608 INFO    MainThread:1668 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-02-02 21:03:39,608 INFO    MainThread:1668 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-02-02 21:03:39,608 INFO    MainThread:1668 [wandb_run.py:_restore():2053] restore
+2023-02-02 21:03:39,608 INFO    MainThread:1668 [wandb_run.py:_restore():2059] restore done
+2023-02-02 21:03:45,243 INFO    MainThread:1668 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-02-02 21:03:45,245 INFO    MainThread:1668 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-02-02 21:03:45,248 INFO    MainThread:1668 [wandb_run.py:_footer_sync_info():3383] logging synced files

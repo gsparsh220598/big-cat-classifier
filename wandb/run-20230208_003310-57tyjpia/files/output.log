@@ -1,0 +1,43 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1`. You can also use `weights=ConvNeXt_Tiny_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+0         3.167683    2.209939    0.233333  0.766667    0.153509  0.766667      00:03
+Better model found at epoch 0 with accuracy value: 0.23333333432674408.
+
+
+1         3.088710    2.184650    0.266667  0.733333    0.198039  0.733333      00:02
+Better model found at epoch 1 with accuracy value: 0.2666666805744171.
+
+
+2         3.068800    1.939841    0.266667  0.733333    0.249206  0.733333      00:02
+
+
+3         2.867874    1.712943    0.400000  0.600000    0.412698  0.600000      00:02
+Better model found at epoch 3 with accuracy value: 0.4000000059604645.
+
+4         2.644951    1.523065    0.533333  0.466667    0.493122  0.466667      00:02
+Better model found at epoch 4 with accuracy value: 0.5333333611488342.
+
+
+5         2.534714    1.381107    0.600000  0.400000    0.584175  0.400000      00:02
+Better model found at epoch 5 with accuracy value: 0.6000000238418579.
+
+
+6         2.290608    1.280850    0.600000  0.400000    0.589899  0.400000      00:02
+
+
+7         2.221957    1.242228    0.600000  0.400000    0.571746  0.400000      00:02
+
+
+8         2.098065    1.273120    0.600000  0.400000    0.595421  0.400000      00:02
+
+
+9         2.086884    1.225805    0.633333  0.366667    0.642857  0.366667      00:02
+Better model found at epoch 9 with accuracy value: 0.6333333253860474.

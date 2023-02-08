@@ -1,0 +1,40 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=RegNet_X_400MF_Weights.IMAGENET1K_V1`. You can also use `weights=RegNet_X_400MF_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/regnet_x_400mf-adf1edd5.pth" to /root/.cache/torch/hub/checkpoints/regnet_x_400mf-adf1edd5.pth
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21.3M/21.3M [00:00<00:00, 61.7MB/s]
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+0         3.146024    1.558725    0.433333  0.566667    0.421801  0.566667      00:04
+Better model found at epoch 0 with accuracy value: 0.4333333373069763.
+
+
+1         2.069992    0.580308    0.800000  0.200000    0.796720  0.200000      00:02
+Better model found at epoch 1 with accuracy value: 0.800000011920929.
+
+2         1.416070    0.464211    0.800000  0.200000    0.810053  0.200000      00:02
+
+
+3         1.074733    0.559254    0.800000  0.200000    0.803108  0.200000      00:02
+
+4         0.893511    0.651221    0.833333  0.166667    0.839815  0.166667      00:02
+Better model found at epoch 4 with accuracy value: 0.8333333134651184.
+
+
+5         0.756429    0.527895    0.800000  0.200000    0.806268  0.200000      00:02
+
+6         0.595548    0.611929    0.833333  0.166667    0.839815  0.166667      00:02
+
+
+7         0.512640    0.669367    0.833333  0.166667    0.839815  0.166667      00:02
+
+8         0.422775    0.688612    0.833333  0.166667    0.839815  0.166667      00:02
+
+
+
+9         0.338891    0.599925    0.833333  0.166667    0.839815  0.166667      00:02

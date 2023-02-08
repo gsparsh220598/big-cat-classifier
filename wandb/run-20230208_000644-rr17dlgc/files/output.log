@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/notebooks/Big Cat Classification/train.py", line 119, in <module>
+    train(default_config)
+  File "/notebooks/Big Cat Classification/train.py", line 96, in train
+    processed_dataset_dir = download_data()
+  File "/notebooks/Big Cat Classification/train.py", line 48, in download_data
+    processed_data_at = run.use_artifact(f'{params.PROCESSED_DATA_AT}:latest')
+AttributeError: 'function' object has no attribute 'use_artifact'

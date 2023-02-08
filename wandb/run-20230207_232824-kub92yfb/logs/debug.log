@@ -1,0 +1,83 @@
+2023-02-07 23:28:24,959 INFO    MainThread:6327 [wandb_setup.py:_flush():68] Configure stats pid to 6327
+2023-02-07 23:28:24,959 INFO    MainThread:6327 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-02-07 23:28:24,959 INFO    MainThread:6327 [wandb_setup.py:_flush():68] Loading settings from /notebooks/Big Cat Classification/wandb/settings
+2023-02-07 23:28:24,959 INFO    MainThread:6327 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-07 23:28:24,959 INFO    MainThread:6327 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:_log_setup():492] Logging user logs to /notebooks/Big Cat Classification/wandb/run-20230207_232824-kub92yfb/logs/debug.log
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:_log_setup():493] Logging internal logs to /notebooks/Big Cat Classification/wandb/run-20230207_232824-kub92yfb/logs/debug-internal.log
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcb1c36b820>
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:init():532] calling init triggers
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'pretrained': True, 'seed': 42}
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:init():588] starting backend
+2023-02-07 23:28:24,960 INFO    MainThread:6327 [wandb_init.py:init():592] setting up manager
+2023-02-07 23:28:24,962 INFO    MainThread:6327 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-07 23:28:24,964 INFO    MainThread:6327 [wandb_init.py:init():599] backend started and connected
+2023-02-07 23:28:24,976 INFO    MainThread:6327 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-02-07 23:28:24,976 INFO    MainThread:6327 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-07 23:28:24,976 INFO    MainThread:6327 [wandb_init.py:init():687] updated telemetry
+2023-02-07 23:28:24,992 INFO    MainThread:6327 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-07 23:28:25,341 INFO    MainThread:6327 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-07 23:28:25,834 INFO    MainThread:6327 [wandb_run.py:_on_init():2143] got version response 
+2023-02-07 23:28:25,835 INFO    MainThread:6327 [wandb_init.py:init():775] starting run threads in backend
+2023-02-07 23:28:25,902 INFO    MainThread:6327 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-07 23:28:25,902 INFO    MainThread:6327 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-07 23:28:25,903 INFO    MainThread:6327 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-07 23:28:25,903 INFO    MainThread:6327 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-07 23:28:25,903 INFO    MainThread:6327 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-07 23:28:25,903 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:25,903 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:25,908 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,802 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,802 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,806 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,808 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,808 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,812 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,813 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,813 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,816 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,820 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,820 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,824 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,825 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,826 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,829 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,830 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,830 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,833 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:29,834 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:29,834 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:29,837 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:32,200 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:32,201 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:32,205 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:32,384 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:32,384 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:32,389 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:32,389 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:32,389 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:32,393 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:32,674 INFO    MainThread:6327 [wandb_run.py:_config_callback():1250] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.vision.learner._resnet_split', 'metrics': ['fastai.metrics.accuracy', 'fastai.metrics.error_rate', {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7fcb13593c10>'}, {'func': 'sklearn.metrics._classification.hamming_loss', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x7fcb13593df0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, 'arch': 'torchvision.models.resnet.resnet18', 'normalize': True, 'n_out': 7, 'pretrained': True, '_name': '<fastai.learner.Learner object at 0x7fcb13841910>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': False, 'log_preds_every_epoch': False, 'log_model': True, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 1, 'input 1 dim 1': 8, 'input 1 dim 2': 3, 'input 1 dim 3': 180, 'input 1 dim 4': 320, 'batch size': 8, 'batch per epoch': 29, 'model parameters': 11707456, 'device': 'cuda', 'frozen': True, 'frozen idx': 2, 'dataset.tfms': "[Pipeline: ColReader -- {'cols': 'image_fname', 'pref': '', 'suff': '', 'label_delim': None} -> PILBase.create, Pipeline: ColReader -- {'cols': 'label', 'pref': '', 'suff': '', 'label_delim': None} -> Categorize -- {'vocab': None, 'sort': True, 'add_na': False}]", 'dls.after_item': "Pipeline: Resize -- {'size': (320, 180), 'method': 'crop', 'pad_mode': 'reflection', 'resamples': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), 'p': 1.0} -> ToTensor", 'dls.before_batch': 'Pipeline: ', 'dls.after_batch': "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\n         [[0.4560]],\n\n         [[0.4060]]]], device='cuda:0'), 'std': tensor([[[[0.2290]],\n\n         [[0.2240]],\n\n         [[0.2250]]]], device='cuda:0'), 'axes': (0, 2, 3)}"}
+2023-02-07 23:28:54,891 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:54,891 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:54,897 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:55,201 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:55,201 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:55,207 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:56,629 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:56,630 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:56,636 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:57,256 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:57,256 INFO    MainThread:6327 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-07 23:28:57,261 INFO    MainThread:6327 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [wandb_run.py:_finish():1854] finishing run gsparsh/big-cat-classification/kub92yfb
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [wandb_run.py:_restore():2066] restore
+2023-02-07 23:28:57,262 INFO    MainThread:6327 [wandb_run.py:_restore():2072] restore done
+2023-02-07 23:29:46,917 INFO    MainThread:6327 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-07 23:29:46,918 INFO    MainThread:6327 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-07 23:29:46,922 INFO    MainThread:6327 [wandb_run.py:_footer_sync_info():3398] logging synced files

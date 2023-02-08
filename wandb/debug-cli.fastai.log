@@ -1,0 +1,165 @@
+2023-02-07 23:29:38 WARNING Connection pool is full, discarding connection: storage.googleapis.com. Connection pool size: 10
+2023-02-07 23:29:38 WARNING Connection pool is full, discarding connection: storage.googleapis.com. Connection pool size: 10
+2023-02-07 23:29:38 WARNING Connection pool is full, discarding connection: storage.googleapis.com. Connection pool size: 10
+2023-02-07 23:29:38 WARNING Connection pool is full, discarding connection: storage.googleapis.com. Connection pool size: 10
+2023-02-07 23:29:39 WARNING Connection pool is full, discarding connection: storage.googleapis.com. Connection pool size: 10
+2023-02-08 00:16:52 ERROR 403 response executing GraphQL.
+2023-02-08 00:16:52 ERROR {"errors":[{"message":"permission denied","path":["upsertSweep"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertSweep":null}}
+2023-02-08 00:16:52 ERROR Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/usr/local/lib/python3.9/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/usr/local/lib/python3.9/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 2298, in upsert_sweep
+    raise e
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 2283, in upsert_sweep
+    response = self.gql(
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 214, in gql
+    ret = self._retry_gql(
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/util.py", line 991, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.UsageError: permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/wandb/cli/cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/cli/cli.py", line 960, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/usr/local/lib/python3.9/dist-packages/wandb/apis/internal.py", line 102, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/apis/normalize.py", line 64, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/dist-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 2298, in upsert_sweep
+    raise e
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 2283, in upsert_sweep
+    response = self.gql(
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/internal_api.py", line 214, in gql
+    ret = self._retry_gql(
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/util.py", line 991, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.CommError: permission denied
+
+2023-02-08 00:19:15 INFO Running runs: []
+2023-02-08 00:19:15 INFO Agent received command: run
+2023-02-08 00:19:15 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.0009366615969381304
+2023-02-08 00:19:16 INFO About to run command: /usr/bin/env python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=0.0009366615969381304
+2023-02-08 00:19:21 INFO Running runs: ['a9hry5hg']
+2023-02-08 00:20:57 INFO Cleaning up finished run: a9hry5hg
+2023-02-08 00:20:59 INFO Agent received command: run
+2023-02-08 00:20:59 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 4
+	img_size: 240
+	log_preds: False
+	lr: 2.661630300470845e-05
+2023-02-08 00:20:59 INFO About to run command: /usr/bin/env python train.py --arch=convnext_tiny --batch_size=4 --img_size=240 --log_preds=False --lr=2.661630300470845e-05
+2023-02-08 00:21:04 INFO Running runs: ['nt6k3p5a']
+2023-02-08 00:23:31 INFO Cleaning up finished run: nt6k3p5a
+2023-02-08 00:23:31 INFO Agent received command: run
+2023-02-08 00:23:31 INFO Agent starting run with config:
+	arch: mobilenet_v3_small
+	batch_size: 4
+	img_size: 240
+	log_preds: False
+	lr: 0.0006098189492068063
+2023-02-08 00:23:31 INFO About to run command: /usr/bin/env python train.py --arch=mobilenet_v3_small --batch_size=4 --img_size=240 --log_preds=False --lr=0.0006098189492068063
+2023-02-08 00:23:36 INFO Running runs: ['585t56eh']
+2023-02-08 00:25:43 INFO Cleaning up finished run: 585t56eh
+2023-02-08 00:25:43 INFO Agent received command: run
+2023-02-08 00:25:43 INFO Agent starting run with config:
+	arch: resnet18
+	batch_size: 4
+	img_size: 240
+	log_preds: False
+	lr: 0.00010442418871204876
+2023-02-08 00:25:43 INFO About to run command: /usr/bin/env python train.py --arch=resnet18 --batch_size=4 --img_size=240 --log_preds=False --lr=0.00010442418871204876
+2023-02-08 00:25:48 INFO Running runs: ['k2u5sqyd']
+2023-02-08 00:27:49 INFO Cleaning up finished run: k2u5sqyd
+2023-02-08 00:27:49 INFO Agent received command: run
+2023-02-08 00:27:49 INFO Agent starting run with config:
+	arch: regnet_x_400mf
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.0016860856582357232
+2023-02-08 00:27:49 INFO About to run command: /usr/bin/env python train.py --arch=regnet_x_400mf --batch_size=8 --img_size=240 --log_preds=False --lr=0.0016860856582357232
+2023-02-08 00:27:54 INFO Running runs: ['6h058zzp']
+2023-02-08 00:29:11 INFO Cleaning up finished run: 6h058zzp
+2023-02-08 00:29:11 INFO Agent received command: run
+2023-02-08 00:29:11 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.0065886069605143515
+2023-02-08 00:29:11 INFO About to run command: /usr/bin/env python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=0.0065886069605143515
+2023-02-08 00:29:16 INFO Running runs: ['ufvx46qp']
+2023-02-08 00:30:28 INFO Cleaning up finished run: ufvx46qp
+2023-02-08 00:30:28 INFO Agent received command: run
+2023-02-08 00:30:28 INFO Agent starting run with config:
+	arch: regnet_x_400mf
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.004295621724356168
+2023-02-08 00:30:28 INFO About to run command: /usr/bin/env python train.py --arch=regnet_x_400mf --batch_size=8 --img_size=240 --log_preds=False --lr=0.004295621724356168
+2023-02-08 00:30:33 INFO Running runs: ['ixa1a1uw']
+2023-02-08 00:31:45 INFO Cleaning up finished run: ixa1a1uw
+2023-02-08 00:31:45 INFO Agent received command: run
+2023-02-08 00:31:45 INFO Agent starting run with config:
+	arch: mobilenet_v3_small
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.001176316999218548
+2023-02-08 00:31:45 INFO About to run command: /usr/bin/env python train.py --arch=mobilenet_v3_small --batch_size=8 --img_size=240 --log_preds=False --lr=0.001176316999218548
+2023-02-08 00:31:50 INFO Running runs: ['9f2jsofc']
+2023-02-08 00:33:06 INFO Cleaning up finished run: 9f2jsofc
+2023-02-08 00:33:06 INFO Agent received command: run
+2023-02-08 00:33:06 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 1.3760252273846922e-05
+2023-02-08 00:33:06 INFO About to run command: /usr/bin/env python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=1.3760252273846922e-05
+2023-02-08 00:33:11 INFO Running runs: ['57tyjpia']
+2023-02-08 00:34:28 INFO Cleaning up finished run: 57tyjpia
+2023-02-08 00:34:28 INFO Agent received command: run
+2023-02-08 00:34:28 INFO Agent starting run with config:
+	arch: regnet_x_400mf
+	batch_size: 4
+	img_size: 240
+	log_preds: False
+	lr: 0.00017827975297783318
+2023-02-08 00:34:28 INFO About to run command: /usr/bin/env python train.py --arch=regnet_x_400mf --batch_size=4 --img_size=240 --log_preds=False --lr=0.00017827975297783318
+2023-02-08 00:34:33 INFO Running runs: ['f21lt6rh']
+2023-02-08 00:36:43 INFO Cleaning up finished run: f21lt6rh

@@ -1,0 +1,38 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1`. You can also use `weights=ConvNeXt_Tiny_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+0         1.716526    0.268693    0.900000  0.100000    0.902165  0.100000      00:03
+Better model found at epoch 0 with accuracy value: 0.8999999761581421.
+
+
+1         1.079875    1.669197    0.633333  0.366667    0.583069  0.366667      00:02
+
+2         1.011079    0.767127    0.800000  0.200000    0.782039  0.200000      00:02
+
+
+3         1.067108    0.641617    0.866667  0.133333    0.869889  0.133333      00:02
+
+
+4         0.953512    1.374323    0.766667  0.233333    0.718452  0.233333      00:02
+
+5         0.911692    0.381416    0.933333  0.066667    0.933333  0.066667      00:02
+Better model found at epoch 5 with accuracy value: 0.9333333373069763.
+
+
+6         0.745244    0.429554    0.900000  0.100000    0.901323  0.100000      00:02
+
+7         0.576358    0.385787    0.900000  0.100000    0.905454  0.100000      00:02
+
+
+8         0.462829    0.385260    0.900000  0.100000    0.905454  0.100000      00:02
+
+
+
+9         0.368320    0.435535    0.866667  0.133333    0.873148  0.133333      00:02

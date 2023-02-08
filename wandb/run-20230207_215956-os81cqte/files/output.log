@@ -1,0 +1,45 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+
+
+
+
+
+
+
+
+
+
+
+
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:27.0
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/system_monitor.py", line 118, in _start
+    asset.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/cpu.py", line 166, in start
+    self.metrics_monitor.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/interfaces.py", line 168, in start
+    logger.info(f"Started {self._process.name}")
+AttributeError: 'NoneType' object has no attribute 'name'
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+Better model found at epoch 0 with accuracy value: 0.699999988079071.
+Better model found at epoch 1 with accuracy value: 0.9333333373069763.
+Better model found at epoch 4 with accuracy value: 0.9666666388511658.
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_clean:v0, 51.28MB. 591 files...
+[34m[1mwandb[39m[22m:   591 of 591 files downloaded.
+Done. 0:0:0.6
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_clean:v0, 51.28MB. 591 files...
+[34m[1mwandb[39m[22m:   591 of 591 files downloaded.
+Done. 0:0:0.1
+Done. 0:0:0.4

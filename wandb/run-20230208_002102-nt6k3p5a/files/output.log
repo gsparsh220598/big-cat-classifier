@@ -1,0 +1,70 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1`. You can also use `weights=ConvNeXt_Tiny_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+
+
+
+
+
+0         3.143779    2.249875    0.166667  0.833333    0.115468  0.833333      00:04
+Better model found at epoch 0 with accuracy value: 0.1666666716337204.
+
+
+
+
+
+1         2.875504    1.951463    0.333333  0.666667    0.317605  0.666667      00:03
+Better model found at epoch 1 with accuracy value: 0.3333333432674408.
+
+
+
+
+2         2.699639    1.573837    0.433333  0.566667    0.401587  0.566667      00:03
+Better model found at epoch 2 with accuracy value: 0.4333333373069763.
+
+
+
+
+3         2.512462    1.304222    0.666667  0.333333    0.667626  0.333333      00:03
+Better model found at epoch 3 with accuracy value: 0.6666666865348816.
+
+
+
+
+
+4         2.222181    1.149209    0.700000  0.300000    0.696962  0.300000      00:03
+Better model found at epoch 4 with accuracy value: 0.699999988079071.
+
+
+
+
+5         2.046625    0.964862    0.700000  0.300000    0.692364  0.300000      00:03
+
+
+
+
+6         1.895616    0.940780    0.766667  0.233333    0.760017  0.233333      00:03
+Better model found at epoch 6 with accuracy value: 0.7666666507720947.
+
+
+
+
+7         1.762661    0.892754    0.700000  0.300000    0.669646  0.300000      00:03
+
+
+
+
+8         1.790780    0.931855    0.666667  0.333333    0.667525  0.333333      00:03
+
+
+
+
+
+9         1.741714    0.885298    0.733333  0.266667    0.728680  0.266667      00:03

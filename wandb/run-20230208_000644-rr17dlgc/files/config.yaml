@@ -1,0 +1,66 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.10
+    framework: fastai
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1675814804.665025
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.13.10
+      8:
+      - 5
+arch:
+  desc: null
+  value: resnet18
+augment:
+  desc: null
+  value: true
+batch_size:
+  desc: null
+  value: 8
+epochs:
+  desc: null
+  value: 10
+framework:
+  desc: null
+  value: fastai
+img_size:
+  desc: null
+  value: 180
+log_preds:
+  desc: null
+  value: false
+lr:
+  desc: null
+  value: 0.002
+mixed_precision:
+  desc: null
+  value: true
+pretrained:
+  desc: null
+  value: true
+seed:
+  desc: null
+  value: 42

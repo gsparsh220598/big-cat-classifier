@@ -1,0 +1,19 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+Traceback (most recent call last):
+  File "/notebooks/Big Cat Classification/train.py", line 119, in <module>
+    train(default_config)
+  File "/notebooks/Big Cat Classification/train.py", line 97, in train
+    df = get_df(processed_dataset_dir)
+  File "/notebooks/Big Cat Classification/train.py", line 64, in get_df
+    df['image_fname'] = [f for f in get_image_files(path)]
+  File "/usr/local/lib/python3.9/dist-packages/pandas/core/frame.py", line 3655, in __setitem__
+    self._set_item(key, value)
+  File "/usr/local/lib/python3.9/dist-packages/pandas/core/frame.py", line 3832, in _set_item
+    value = self._sanitize_column(value)
+  File "/usr/local/lib/python3.9/dist-packages/pandas/core/frame.py", line 4535, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/usr/local/lib/python3.9/dist-packages/pandas/core/common.py", line 557, in require_length_match
+    raise ValueError(
+ValueError: Length of values (292) does not match length of index (262)

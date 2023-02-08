@@ -1,0 +1,48 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_split:latest, 51.75MB. 597 files...
+[34m[1mwandb[39m[22m:   597 of 597 files downloaded.
+Done. 0:0:0.1
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1`. You can also use `weights=ConvNeXt_Tiny_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/convnext_tiny-983f1562.pth" to /root/.cache/torch/hub/checkpoints/convnext_tiny-983f1562.pth
+
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊             | 98.3M/109M [00:02<00:00, 47.8MB/s]
+epoch     train_loss  valid_loss  accuracy  error_rate  f1_score  hamming_loss  time
+
+
+
+
+0         2.632061    1.377826    0.500000  0.500000    0.459524  0.500000      00:03
+Better model found at epoch 0 with accuracy value: 0.5.
+
+
+1         1.385876    0.179475    0.900000  0.100000    0.900529  0.100000      00:02
+Better model found at epoch 1 with accuracy value: 0.8999999761581421.
+
+
+2         0.850377    0.302740    0.900000  0.100000    0.900529  0.100000      00:02
+
+
+3         0.656382    0.308011    0.900000  0.100000    0.894974  0.100000      00:02
+
+
+4         0.533591    0.154406    0.933333  0.066667    0.927778  0.066667      00:02
+Better model found at epoch 4 with accuracy value: 0.9333333373069763.
+
+5         0.410468    0.113587    0.966667  0.033333    0.966330  0.033333      00:02
+Better model found at epoch 5 with accuracy value: 0.9666666388511658.
+
+
+
+6         0.309153    0.178457    0.966667  0.033333    0.966330  0.033333      00:02
+
+
+7         0.249891    0.200388    0.966667  0.033333    0.966330  0.033333      00:02
+
+
+8         0.209823    0.207833    0.966667  0.033333    0.966330  0.033333      00:02
+
+
+
+9         0.205944    0.197104    0.966667  0.033333    0.966330  0.033333      00:02

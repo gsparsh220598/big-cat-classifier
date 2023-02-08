@@ -1,0 +1,35 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats:latest, 73.58MB. 808 files...
+
+
+[34m[1mwandb[39m[22m:   808 of 808 files downloaded.
+Done. 0:0:6.7
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats:latest, 73.58MB. 808 files...
+[34m[1mwandb[39m[22m:   808 of 808 files downloaded.
+Done. 0:0:0.1
+Error deleting directory
+Error deleting directory
+01_setup.ipynb		03_split.ipynb	   Dataset	artifacts  utils.py
+02_add_more_data.ipynb	04_baseline.ipynb  __pycache__	params.py  wandb
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_clean:latest, 51.28MB. 591 files...
+[34m[1mwandb[39m[22m:   591 of 591 files downloaded.
+Done. 0:0:0.6
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_clean:latest, 51.28MB. 591 files...
+[34m[1mwandb[39m[22m:   591 of 591 files downloaded.
+Done. 0:0:0.1
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/system_monitor.py", line 118, in _start
+    asset.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/cpu.py", line 166, in start
+    self.metrics_monitor.start()
+  File "/usr/local/lib/python3.9/dist-packages/wandb/sdk/internal/system/assets/interfaces.py", line 168, in start
+    logger.info(f"Started {self._process.name}")
+AttributeError: 'NoneType' object has no attribute 'name'
+[34m[1mwandb[39m[22m: Downloading large artifact bcc_bigcats_clean:latest, 51.28MB. 591 files...
+[34m[1mwandb[39m[22m:   591 of 591 files downloaded.
+Done. 0:0:0.1
+[34m[1mwandb[39m[22m: Adding directory to artifact (./artifacts/bcc_bigcats_clean:v0)... Done. 0.5s

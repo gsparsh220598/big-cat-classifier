@@ -1,0 +1,12 @@
+wandb_version: 1
+
+arch:
+  value: regnet_x_400mf
+batch_size:
+  value: 4
+img_size:
+  value: 240
+log_preds:
+  value: false
+lr:
+  value: 0.00017827975297783318

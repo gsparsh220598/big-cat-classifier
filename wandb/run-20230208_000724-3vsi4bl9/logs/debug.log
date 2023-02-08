@@ -1,0 +1,25 @@
+2023-02-08 00:07:25,984 INFO    MainThread:9003 [wandb_setup.py:_flush():68] Configure stats pid to 9003
+2023-02-08 00:07:25,984 INFO    MainThread:9003 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2023-02-08 00:07:25,984 INFO    MainThread:9003 [wandb_setup.py:_flush():68] Loading settings from /notebooks/Big Cat Classification/wandb/settings
+2023-02-08 00:07:25,984 INFO    MainThread:9003 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-08 00:07:25,984 INFO    MainThread:9003 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Big Cat Classification/train.py', 'program': '/notebooks/Big Cat Classification/train.py'}
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:_log_setup():492] Logging user logs to /notebooks/Big Cat Classification/wandb/run-20230208_000724-3vsi4bl9/logs/debug.log
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:_log_setup():493] Logging internal logs to /notebooks/Big Cat Classification/wandb/run-20230208_000724-3vsi4bl9/logs/debug-internal.log
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:init():532] calling init triggers
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': 180, 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'pretrained': True, 'mixed_precision': True, 'arch': 'resnet18', 'seed': 42, 'log_preds': False}
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:init():588] starting backend
+2023-02-08 00:07:25,985 INFO    MainThread:9003 [wandb_init.py:init():592] setting up manager
+2023-02-08 00:07:25,987 INFO    MainThread:9003 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-08 00:07:25,988 INFO    MainThread:9003 [wandb_init.py:init():599] backend started and connected
+2023-02-08 00:07:25,992 INFO    MainThread:9003 [wandb_init.py:init():687] updated telemetry
+2023-02-08 00:07:26,004 INFO    MainThread:9003 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-08 00:07:26,172 INFO    MainThread:9003 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-08 00:07:26,215 INFO    MainThread:9003 [wandb_run.py:_on_init():2143] got version response 
+2023-02-08 00:07:26,215 INFO    MainThread:9003 [wandb_init.py:init():775] starting run threads in backend
+2023-02-08 00:07:26,262 INFO    MainThread:9003 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-08 00:07:26,263 INFO    MainThread:9003 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-08 00:07:26,263 INFO    MainThread:9003 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-08 00:07:26,263 INFO    MainThread:9003 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-08 00:07:26,264 INFO    MainThread:9003 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-08 00:07:32,943 WARNING MsgRouterThr:9003 [router.py:message_loop():77] message_loop has been closed
