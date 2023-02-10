@@ -57,11 +57,14 @@ def _create_table(image_files, image_labels, dataset_name):
         
     return table
 
-def get_predictions(learner, test_dl=None, max_n=None):
+def get_predictions(learner, mode='train', max_n=None):
     """Return the samples = (x,y) and outputs (model predictions decoded), and predictions (raw preds)"""
-    test_dl = learner.dls.valid if test_dl is None else test_dl
+    if mode.lower() == 'train':
+        idx = 0
+    elif mode.lower() == 'eval':
+        idx = 1
     inputs, predictions, targets, outputs = learner.get_preds(
-        dl=test_dl, with_input=True, with_decoded=True
+        ds_idx=idx, with_input=True, with_decoded=True
     )
     x, y, samples, outputs = learner.dls.valid.show_results(
         tuplify(inputs) + tuplify(targets), outputs, show=False, max_n=max_n
